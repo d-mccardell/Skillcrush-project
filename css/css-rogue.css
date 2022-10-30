@@ -1,0 +1,158 @@
+/***** Base Styles *****/
+
+body {
+    color:#000000;
+    font-family:'Montserrat', sans-serif;
+}
+
+/***** GRid *****/
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1250px;
+}
+
+.half-width {
+    float: left;
+    width: 625px;
+}
+
+.third-width {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+    float: left;
+    height: 210px;
+    width: 400px;
+
+}
+
+/***** Header *****/
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding: 65px 0 35px 0;
+
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    padding: 65px 0px 35px 0px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 25px;
+    padding-left: 0px;
+    text-decoration: none;
+}
+
+/***** Main *****/
+main img#hero {
+    border-top: 4px solid #77a466;
+    border-bottom: 4px solid #77a466;
+    margin:0;
+    padding:0;
+}    
+
+#about h2 {
+    color: #77a466;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: capitalize;
+    margin-left: 22px;
+    margin-top: 29px;
+}
+
+#about p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 29px 56px 37px 22px;
+}
+
+#specials .third-width {
+    border-right: 1px solid #dedbdc;
+
+}
+
+#specials h3 {
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#specials ul{
+    padding-left: 0;
+}
+
+#specials ul li {
+    color: #77a466;
+    font-size: 16px;
+    list-style: none;
+    margin-bottom: 22px;
+}
+
+#reviews .third-width {
+    border-right: 1px solid #dedbdc;
+}
+
+#reviews h3 {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-left: 28px;
+}
+
+#reviews p {
+    font-size:16px;
+    line-height: 21px;
+    padding-left: 28px;
+    padding-right: 44px;
+   
+}
+
+#contact h3 {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    padding-left: 28px;
+}
+
+#contact p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 28px;
+}
+
+footer h2 {
+    font-size: 16px;
+    padding-left: 450px;
+    margin-left: 0;
+}
+
+footer h2 span {
+    color: #77a466;
+    font-family: 'Galada' , cursive;
+    font-size: 16px;
+    font-weight: 400;
+
+}
